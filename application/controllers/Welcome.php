@@ -45,5 +45,13 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('dashboard');
 	}
+	public function history()
+	{
+		$this->load->view('history');
+	}
+	public function manager()
+	{
+		$this->load->view('manager');
+	}
 	
 }
