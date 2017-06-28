@@ -9,11 +9,69 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>css/dashboard.css"/>
 	<link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>FA/css/font-awesome.min.css" />
 	
+	<script type="text/javascript" src="<?php echo base_url(); ?>fs/js/fusioncharts.js"></script>
+	<script type="text/javascript" src="<?php echo base_url(); ?>fs/js/themes/fusioncharts.theme.ocean.js"></script>
+
 	<title>Dashboard</title>
+
+	<script type="text/javascript">
+  FusionCharts.ready(function(){
+    var fusioncharts = new FusionCharts({
+    type: 'pie2d',
+    renderAt: 'chart-container',
+    width: '550',
+    height: '300',
+    dataFormat: 'json',
+    dataSource: {
+    "chart": {
+        "caption": "Total Expenses for this Month",
+        "subcaption": "June 2017",
+        "showvalues": "1",
+        "showpercentvalues": "1",
+        "showpercentintooltip": "0",
+        "bgcolor": "#FFFFFF",
+        "basefontcolor": "#400D1B",
+        "showshadow": "0",
+        "animation": "1",
+        "showborder": "0",
+        "palettecolors": "#BE3243,#986667,#BE6F71,#CB999A,#DFC0B1,#E0D0D0"
+    },
+    "data": [
+        {
+            "label": "Tubig",
+            "value": "78242"
+        },
+        {
+            "label": "Kuryente",
+            "value": "75223"
+        },
+        {
+            "label": "Internet",
+            "value": "30343"
+        },
+        {
+            "label": "Credit Card",
+            "value": "22343"
+        },
+        {
+            "label": "Cable",
+            "value": "13343"
+        },
+        {
+            "label": "Rent",
+            "value": "11343"
+        }
+    ]
+}
+}
+);
+    fusioncharts.render();
+});
+</script>
 
 </head>
 
-	<body style="background-color: #effcf4">
+	<body style="background-color: white">
 
 		<!-- Navbar -->	
 		<div class="w3-bar" style="background-color: #323132;">
@@ -25,12 +83,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 		</div>
 	
-
-  		<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none" id="mySidebar">
-  			<button class="w3-bar-item w3-button w3-large" onclick="w3_close()">Close &times;</button>
+		<div style = "width:700px;">
+  		<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none;" id="mySidebar">
+  			<button class="w3-bar-item w3-button" onclick="w3_close()">Close &times;</button>
   				<a href="#" class="w3-bar-item w3-button">Link 1</a>
   				<a href="#" class="w3-bar-item w3-button">Link 2</a>
   				<a href="#" class="w3-bar-item w3-button">Link 3</a>
+		</div>
 		</div>
 
 		<div class="w3-main" id="main">
@@ -69,7 +128,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<div class="w3-container w3-center" style="height: 40px; font-size: 25px; background-color: #854078; color: white;">CREDIT CARD</div>	
 								</div>
 							</div>
+						</div>
+						<div class = "w3-row" style = "margin-top: 50px;">
+							<div class = "w3-col" style = "width:50%;" >
+								<div id="chart-container">FusionCharts XT will load here!</div>
+							</div>
+							<div class = "w3-col" style = "width:50%;" >
+								ANO DITO?
+							</div>
 						</div></center>
+						<br><br>
 					</div>
 				</div>
 			</div>
@@ -77,8 +145,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <script>
 function w3_open() {
-  document.getElementById("main").style.marginLeft = "25%";
-  document.getElementById("mySidebar").style.width = "25%";
+  document.getElementById("main").style.marginLeft = "15%";
+  document.getElementById("mySidebar").style.width = "15%";
   document.getElementById("mySidebar").style.display = "block";
   document.getElementById("openNav").style.display = 'none';
 }
