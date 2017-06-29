@@ -134,7 +134,35 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<div id="chart-container">FusionCharts XT will load here!</div>
 							</div>
 							<div class = "w3-col" style = "width:50%;" >
-								ANO DITO?
+								<div class="w3-container" style = "margin: 30px 0 0 40px;">
+									<div class = "w3-responsive">
+										<table class = "w3-table-all" style = "height: 100px;">
+										<tr>
+  											<th>Points</th>
+  											<th>Points</th>
+										</tr>
+										<tr>
+  											<td>50</td>
+  											<td>50</td>
+										</tr>
+										<tr>
+  											<td>94</td>
+  											<td>94</td>
+										</tr>
+										<tr>
+  											<td>67</td>
+  											<td>67</td>
+										</tr>
+										<tr>
+  											<td>94</td>
+  											<td>94</td>
+										</tr>
+										<tr>
+  											<td>67</td>
+  											<td>67</td>
+										</tr>
+									</table>
+								</div>
 							</div>
 						</div></center>
 						<br><br>
