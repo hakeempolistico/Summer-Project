@@ -105,25 +105,25 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		  			<div class="w3-col w3-container"><center>
 		  				<div class = "w3-row">
 							<div class = "w3-col" style = "width:25%;" >
-								<div class="w3-card-4 w3-center w3-border" onclick="document.getElementById('id01').style.display='block'" style="width:240px; height: 160px; background-color: #bdd2e5;">					
+								<div class="w3-card-4 w3-center w3-border w3-animate-left" onclick="document.getElementById('id01').style.display='block'" style="width:240px; height: 160px; background-color: #bdd2e5; animation-duration: 1.5s;">					
 								<i class="fa fa-tint fa-5x" aria-hidden="true" style="font-size: 80px; margin: 20px 0 20px 0; color: #4681b4"></i>
-								<div class="w3-container w3-center" style="height: 40px; font-size: 25px; background-color: #4681b4; color: white;">PAID</div>
+								<div class="w3-container w3-center" style="height: 40px; font-size: 25px; background-color: #4681b4; color: white; ">PAID</div>
 								</div>
 							</div>
 							<div class = "w3-col" style = "width:25%;">
-								<div class="w3-card-4 w3-center w3-border" style="width:240px; height: 160px; background-color: #f2cd75">
+								<div class="w3-card-4 w3-center w3-border w3-animate-left" style="width:240px; height: 160px; background-color: #f2cd75; animation-duration: 1.5s;">
 								<i class="fa fa-internet-explorer fa-5x" aria-hidden="true" style="font-size: 60px; margin: 25px 0 35px 0; color: #ce9613"></i>
 								<div class="w3-container w3-center" style="height: 40px; font-size: 25px; background-color: #ce9613; color: white;">INTERNET</div>
 							</div>
 							</div>
 							<div class = "w3-col" style = "width:25%;">
-								<div class="w3-card-4 w3-center w3-border" style="width:240px; height: 160px; background-color: #f7cac9">					
+								<div class="w3-card-4 w3-center w3-border w3-animate-left" style="width:240px; height: 160px; background-color: #f7cac9; animation-duration: 1.5s;">					
 								<i class="fa fa-television fa-5x" aria-hidden="true" style="font-size: 80px; margin: 20px 0 19px 0; color: #e65755"></i>		
 								<div class="w3-container w3-center" style="height: 40px; font-size: 25px; background-color: #e65755; color: white;">CABLE</div>	
 								</div>
 							</div>
 							<div class = "w3-col" style = "width:25%;">
-								<div class="w3-card-4 w3-center w3-border" style="width:240px; height: 160px; background-color:#d2a2c9 ">					
+								<div class="w3-card-4 w3-center w3-border w3-animate-left" style="width:240px; height: 160px; background-color:#d2a2c9; animation-duration: 1.5s;">					
 								<i class="fa fa-credit-card fa-5x" aria-hidden="true" style="font-size: 80px; margin: 20px 0 19px 0; color: #854078"></i>		
 								<div class="w3-container w3-center" style="height: 40px; font-size: 25px; background-color: #854078; color: white;">CREDIT CARD</div>	
 								</div>
@@ -134,7 +134,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 								<div id="chart-container">FusionCharts XT will load here!</div>
 							</div>
 							<div class = "w3-col" style = "width:50%;" >
-								<div class="w3-container" style = "margin: 30px 0 0 40px;">
+								<div class="w3-container w3-animate-top" style = "margin: 30px 0 0 40px; animation-duration: 1.5s;">
 									<div class = "w3-responsive">
 										<table class = "w3-table-all" style = "height: 100px;">
 										<tr>
