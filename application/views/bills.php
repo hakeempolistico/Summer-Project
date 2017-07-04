@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
-    					<div class="text">Tubig</div>
+    					<div class="text">I LOVE YOU HAKEEM</div>
   					</div>
   				</div>
   				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
