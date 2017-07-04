@@ -87,9 +87,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		<div style = "width:700px;">
   		<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none;" id="mySidebar">
   			<button class="w3-bar-item w3-button" onclick="w3_close()">Close &times;</button>
-  				<a href="#" class="w3-bar-item w3-button">Link 1</a>
-  				<a href="#" class="w3-bar-item w3-button">Link 2</a>
-  				<a href="#" class="w3-bar-item w3-button">Link 3</a>
+  				<a href="<?php echo site_url('welcome/dash') ?>" class="w3-bar-item w3-button">Dashboard</a>
+  				<a href="<?php echo site_url('welcome/bills') ?>" class="w3-bar-item w3-button">Bills</a>
+  				<a href="#" class="w3-bar-item w3-button">Reports</a>
 		</div>
 		</div>
 

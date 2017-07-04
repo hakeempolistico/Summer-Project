@@ -36,6 +36,16 @@ class Welcome extends CI_Controller {
 		$this->load->view('add');
 	}
 	
+	public function dash()
+	{
+		$this->load->view('dashboard');
+	}
+
+	public function bills()
+	{
+		$this->load->view('bills');
+	}
+
 	public function login()
 	{
 		$this->load->helper(array('form', 'url'));
@@ -49,5 +59,10 @@ class Welcome extends CI_Controller {
 	public function fusioncharts()
 	{
 		$this->load->view('fusioncharts');
+	}
+
+	public function eoj()
+	{
+		$this->load->view('eoj');
 	}
 }
