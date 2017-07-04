@@ -44,78 +44,78 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   				<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
 			</div>
 
-			<div class="w3-container" style = "margin-bottom: 20px;">
+			<div class="w3-container w3-animate-left" style = "animation-duration: 1.5s; margin-bottom: 20px;">
 		  	<h1>Expenses</h1>
 		  	</div>
 			
 		  	<div class="gallery cf">
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Tubig</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Kuryente</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Cable</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Internet</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Tuition</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Kotse</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Credit Card</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Pag-ibig</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">SSS</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Pagkain</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Will to live</div>
   					</div>
   				</div>
-  				<div>
+  				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
     					<div class="text">Ayoko na mabuhay</div>
