@@ -65,4 +65,9 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('eoj');
 	}
+
+	public function exp()
+	{
+		$this->load->view('ekusupensesu');
+	}
 }
