@@ -44,7 +44,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   				<button class="w3-button w3-teal w3-xlarge" onclick="w3_open()">&#9776;</button>
 			</div>
 
-			<div class="w3-container w3-animate-left" style = "animation-duration: 1.5s; margin-bottom: 20px;">
+			<div class="w3-container w3-animate-top" style = "animation-duration: 1.5s; margin-bottom: 20px;">
 		  	<h1>Expenses</h1>
 		  	</div>
 			
@@ -52,7 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
   				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
     				<img src="http://abload.de/img/a6aawu.jpg" />
     				<div class="overlay">
-    					<div class="text">I LOVE YOU HAKEEM</div>
+    					<div class="text">Tubig</div>
   					</div>
   				</div>
   				<div class = "w3-animate-left" style = "animation-duration: 1.5s;">
